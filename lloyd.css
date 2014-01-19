@@ -1,0 +1,167 @@
+img {
+	border:none;
+}
+body {
+	background-image:url('background.png');
+}
+#banner
+{
+	width:1055;
+}
+#navbar
+{
+	width:1055;
+	position:relative;
+	top:-60px;
+	left:-60px;
+	z-index:+10;
+}
+#main
+{
+	width:1055px;
+	position:relative;
+	top:-8px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#mainContent
+{
+	position:relative;
+	top:-76px;
+}
+#canvas
+{
+	position:absolute;
+	z-index:-10;
+	left:0px;
+	top:-4px
+}
+#linksleftborder
+{
+	background-image:url('redline LEFT.png');
+	background-position:left;
+	background-repeat:no-repeat;
+	height:1082px;
+	position:relative;
+}
+#links
+{
+	height:1082px;
+	position:relative;
+	width:195px;
+	float:left;
+}
+#sidebarleftborder
+{
+	background-image:url('redline LEFT.png');
+	background-position:left;
+	background-repeat:no-repeat;
+	position:relative;
+	height:1082px;
+	width:18px;
+	top:-1px;
+	z-index:6;
+	float:left;
+}
+#linkscontent
+{
+	position:relative;
+	height:1082px;
+	width:100px;
+	float:left;
+	left:7px;
+	top:3px;
+	z-index:50;
+}
+#linkscontent img
+{
+	padding:0px 0px 15px 0px;
+}
+#picturescontent
+{
+	position:relative;
+	height:1082px;
+	width:100px;
+	float:left;
+	top:3px;
+	z-index:50;
+}
+#picturescontent img
+{
+	position:relative;
+	left:5px;
+}
+#sidebarrightborder
+{
+	background-image:url('redline RIGHT.png');
+	background-position:right;
+	background-repeat:no-repeat;
+	position:relative;
+	height:1082px;
+	width:18px;
+	top:-1px;
+	z-index:6;
+	float:right; 	
+}
+#leftstripes
+{
+	background-image:url('redstripes.png');
+	background-position:left;
+	background-repeat:no-repeat;
+	position:relative;
+	height:1082px;
+	width:19px;
+	float:left;
+}
+#rightstripes
+{
+	background-image:url('redstripes.png');
+	background-position:right;
+	background-repeat:no-repeat;
+	position:relative;
+	height:1082px;
+	width:19px;
+	float:right;
+}
+#middle
+{
+	position:relative;
+	width:665px;
+	float:left;
+}
+#middlecontent
+{
+	position:relative;
+	width:587px;
+	height:700px;
+	float:center;
+	z-index:35;
+	padding:25px 50px;
+	font-family:"Times New Roman", ariel, Times, serif;
+}
+#middlecontent p,ul
+{
+	text-align:left;
+}
+#pictures
+{
+	position:relative;
+	width:195px;
+	float:right;
+}
+#footer
+{
+	background-image:url('bottom.png');
+	background-position:left bottom;
+	background-repeat:no-repeat;
+	position:relative;
+	width:1055px;
+	height:1145px;
+	z-index:13;
+}
+#footer img
+{
+	position:relative;
+	top:-47px;
+	padding:0px 17px 0px 17px;
+}
