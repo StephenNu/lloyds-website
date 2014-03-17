@@ -2,7 +2,7 @@ img {
 	border:none;
 }
 body {
-	background-image:url('background.png');
+	background-image:url('../images/background.png');
 }
 #banner
 {
@@ -38,7 +38,7 @@ body {
 }
 #linksleftborder
 {
-	background-image:url('redline LEFT.png');
+	background-image:url('../images/redline_left.png');
 	background-position:left;
 	background-repeat:no-repeat;
 	height:1082px;
@@ -53,7 +53,7 @@ body {
 }
 #sidebarleftborder
 {
-	background-image:url('redline LEFT.png');
+	background-image:url('../images/redline_left.png');
 	background-position:left;
 	background-repeat:no-repeat;
 	position:relative;
@@ -93,7 +93,7 @@ body {
 }
 #sidebarrightborder
 {
-	background-image:url('redline RIGHT.png');
+	background-image:url('../images/redline_right.png');
 	background-position:right;
 	background-repeat:no-repeat;
 	position:relative;
@@ -105,7 +105,7 @@ body {
 }
 #leftstripes
 {
-	background-image:url('redstripes.png');
+	background-image:url('../images/red_stripes.png');
 	background-position:left;
 	background-repeat:no-repeat;
 	position:relative;
@@ -115,7 +115,7 @@ body {
 }
 #rightstripes
 {
-	background-image:url('redstripes.png');
+	background-image:url('../images/red_stripes.png');
 	background-position:right;
 	background-repeat:no-repeat;
 	position:relative;
@@ -151,7 +151,7 @@ body {
 }
 #footer
 {
-	background-image:url('bottom.png');
+	background-image:url('../images/bottom.png');
 	background-position:left bottom;
 	background-repeat:no-repeat;
 	position:relative;
